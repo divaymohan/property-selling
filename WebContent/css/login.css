@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
+body{
+    background-color: #ddd;
+}
+.LoginBody{
+    background-color: #ddd;
+}
+.Loginform{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align:center;
+   
+}
+#loginForm{
+    border-style: outset;
+    
+    border-radius: 1%;
+    padding:30px;
+    align:center;
+    background: rgb(121, 183, 207);
+
+}
+.firstName,.lastName,.emailId,.mobileNumber,.genderType,.passwordType,.rpasswordType{
+    padding: 10px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+
+    border-bottom-style: outset;
+    border-bottom-color: rgb(214, 221, 224); 
+}
+#firstName,#lastName,#emailId,#mobileNumber,#genderType,#passwordType,#repeatPassword{
+    float: right;
+    font-family: 'Baloo Bhai', cursive;
+    margin-left: 100px;
+}
+input[type=text] {
+    border-style: groove;
+    height: 20px;
+    margin-right:20px; 
+    
+  }
+input[type=password] {
+    border-style: groove;
+    height: 20px;
+    margin-right:20px; 
+}
+input[type=submit]{
+  background-color: rgb(29, 114, 226);
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  margin-top: 10px;
+  border-style: outset;
+     
+}
+.login-content{
+    font-family: 'Baloo Bhai', cursive;
+    padding: 1px;
+
+}
+.tc-content{
+    font-family: 'Baloo Bhai', cursive;
+    padding: 5px;
+
+}

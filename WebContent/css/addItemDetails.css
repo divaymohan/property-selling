@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
+
+#mainHeading{
+    font-family: 'Baloo Bhai', cursive;
+    padding-left: 10%;
+    padding-right:20%; 
+}
+.add-item-container{
+    font-family: 'Baloo Bhai', cursive;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top:1%;  
+    padding-bottom: 2%;
+    
+}
+#item-select{
+    width: 176px;
+    height: 30px;
+}
+.submit{
+    padding: 5%;
+    
+}
+#submit-button{
+    float: right;
+    padding: 0.5%;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+    
+}
+.propertyType,.Price,.Ownership,.Facing{
+    padding: 3%;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+
+    border-bottom-style: outset;
+    border-bottom-color: rgb(214, 221, 224); 
+
+}
+#item-price,#item-select{
+    float: right;
+    font-family: 'Baloo Bhai', cursive;
+    margin-left: 80px;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: rgb(51, 50, 50);
+}

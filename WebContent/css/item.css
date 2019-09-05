@@ -1,0 +1,9 @@
+.edit-form{
+    display: inline-block;
+}
+.edit{
+    float: left;
+}
+.delete{
+    float: right;
+}
